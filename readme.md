@@ -1,7 +1,7 @@
 
 
 ## 说明
-这个是对babel-handbook的练习手册的代码实现
+这个是对babel-handbook的练习代码
 
 > https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/plugin-handbook.md
 
