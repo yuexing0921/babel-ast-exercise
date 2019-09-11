@@ -1,10 +1,12 @@
 import { parse } from "./parse";
-import { code } from "./sourceFile/str";
 import traverse from "babel-traverse";
 import * as t from "babel-types";
 import generate from "babel-generator";
 import template from "babel-template";
 console.log("=============示例1，涉及到babel各个库的简单调用 start================")
+const code = `function square(n) {
+    return n * n;
+  }`
 // 获取原始ast,
 const ast = parse(code)
 // 例子1 对ast遍历，找到Identifier为n的，修改成x
